@@ -1,0 +1,80 @@
+.nav{
+    width: 100%;
+    background-color: #fff;
+
+.nav-wrapper{
+    width: 95%;
+    margin:  auto;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: space-between;
+
+    .nav-search{
+        position: relative;
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        form{
+        position: relative;
+
+            .search-icon{
+                position: absolute;
+                top: 20%;
+                padding: 0 1rem;
+            }
+            .search-input{
+                font-family: "Inter";
+                font-size: 14px;
+                font-weight: normal;
+                line-height: 32px;
+                border-radius: 12px;
+                background:  #F9F9F9;
+                border: 1px solid #F9F9F9;
+                height: 32px;
+                padding:0 3rem;
+                outline: none;
+            }
+
+        }
+
+    }
+
+    .nav-profile{
+        display: flex;
+        gap: 1rem;
+        flex-basis: 30%;
+        justify-content: flex-end;
+
+        img{
+            width:27px;
+        }
+
+        .profile{
+            display: flex;
+            align-items: center;
+            gap:0.3rem;
+
+            .profile-info{
+                h4{
+                    color:  #333;
+                    font-family: "Nunito";
+                    font-size: 9px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+
+                }
+                p{
+                    font-family: "Nunito";
+                    font-size: 8px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}
+
+}

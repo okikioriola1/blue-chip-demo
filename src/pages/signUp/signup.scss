@@ -1,0 +1,150 @@
+.signup-main{
+    width: 100%;
+    background-color: #FFF;
+    .signup-main-wrapper{
+        width: 90%;
+        margin: auto;
+        padding:2rem;
+        display: flex;
+        .left{
+            flex-basis: 50%;  
+            border: 1px solid #000068;  
+            border-radius: 20px;
+            background: #000068;
+            height:85%;
+            &__wrapper{
+                padding: 2rem;
+                .header{
+                    margin: 3rem 0 3rem 2rem;
+                    h1{
+                        color: #FFF;
+                        font-family: "Nunito";
+                        font-size: 40px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 120%; 
+
+                    }
+                    h4{
+                        color:  #F9F9F9;
+                        font-family: "Nunito";
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                    }
+
+                }
+                .image{
+                    display: flex;
+                    justify-content: center;
+
+                }
+            }
+        }
+        .right{
+            flex-basis: 50%;
+            margin-left: 3rem;
+            &__wrapper{
+                // padding: 2rem;
+                width: 90%;
+                margin:auto;
+                .header{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    margin: 3rem 0 0 0;
+                    h2{
+                        color: #333;
+                        font-family: "Nunito";
+                        font-size: 28px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        text-align: center;
+                        margin: 2rem 0;
+                    }
+                }
+                .signupform-section{
+                    .signupform{
+                        width: 85%;
+                        margin: auto;
+                        label{
+                            display: flex;
+                            flex-direction: column;
+                            gap:0.4rem;
+                            margin: 1rem 0;
+                            h4{
+                                color:  #6C7480;
+                                font-family: "Nunito";
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                            }
+
+                            .signup-input{
+                                background:  #F5F5F5;
+                                font-family: "Nunito";
+                                font-size: 12px;
+                                font-weight: normal;
+                                line-height: normal;
+                                border:1px solid #F5F5F5;
+                                border-radius: 12px;
+                                height:42px;
+                                outline: none;
+                                padding:0 0.3rem;
+                            }
+                        }
+                        .signup-btn{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            margin:2rem 0;
+                            a{
+                                width: 100%;
+                                text-decoration: none;
+                            }
+                            .signup{
+
+                                border-radius: 9px;
+                                border: 1px solid  #3772D4;
+                                color:  #3772D4;
+                                font-family: "Nunito";
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                background: #fff;
+                                width:100%;
+                                padding: 0.5rem 0;
+                                cursor:pointer;
+                            }
+                            .microsoft-btn{
+                                border-radius: 9px;
+                                background:  #E9F1FF;
+                                border: 1px solid  #E9F1FF;
+                                color:  #3772D4;
+                                font-family: "Nunito";
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                width:100%;
+                                padding: 0.3rem 0;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                gap:0.4rem;
+                                margin:1rem 0;
+                                cursor:pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

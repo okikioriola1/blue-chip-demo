@@ -1,0 +1,165 @@
+.home-header{
+    width: 90%;
+    margin:2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .welcome-text{
+        h2{
+            font-family: "Nunito";
+            font-size: 20px;    
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            color: #333;
+        }
+    }
+    .raise-btn{
+        button{
+            border-radius: 5px;
+            background:  #0599F5;       
+            font-family: "Nunito";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            color: #fff;
+            padding: 1rem 2rem;
+            border: 1px solid transparent;
+        }
+    }
+
+}
+
+.recent-tickets{
+    width: 90%;
+    margin: auto;
+    background: #fff;
+    border-radius: 8px;
+    border: 1px solid  #EBEBEB;
+
+    .recent-tickets-header{
+        padding:2rem 2rem 1rem 2rem;
+        h2{
+            color:  #333;
+            font-family: "Nunito";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+    table{
+        width: 95%;
+        margin:1rem auto;
+    }
+}
+.ticket-history-section{
+    width: 90%;
+    margin: 3rem auto;
+    .history-text{
+        
+        h2{
+            color: #333;
+            font-family: "Nunito";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+    }
+    .inputs{
+        margin:2rem 0;
+        display: flex;
+        justify-content: space-between;
+        .left{
+            display: flex;
+            gap:1rem;
+            align-items: center;
+            .filter{
+                background: #fff;
+                border-radius: 5px;
+                border: 1px solid  #EBEBEB;
+                .filter-wrapper{
+                    display: flex;
+                    align-items: center;
+                    gap:0.4rem;
+                    padding:0.6rem;
+                    h3{
+                    color:  #6C7480;
+                    font-family: "Nunito";
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    }
+                }
+            }
+            .sort{
+                background: #fff;
+                border-radius: 5px;
+                border: 1px solid  #EBEBEB;
+                .sort-wrapper{
+                    display: flex;
+                    align-items: center;
+                    gap:0.4rem;
+                    padding:0.6rem;
+                    h3{
+                    color:  #6C7480;
+                    font-family: "Nunito";
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    }
+                }
+            }
+            .search{
+                position: relative;
+
+                .search-icon{
+                    position: absolute;
+                    top: 20%;
+                    padding: 0 1rem;
+                }
+                .search-input{
+                    font-family: "Inter";
+                    font-size: 14px;
+                    font-weight: normal;
+                    line-height: 32px;
+                    border-radius: 12px;
+                    background:  #FFF;
+                    border: 1px solid #F9F9F9;
+                    height: 32px;
+                    padding:0 3rem;
+                    outline: none;
+                }
+            }
+        }
+        .right{
+            flex-basis: 50%;
+            
+            display: flex;
+            justify-content: end;
+
+            .filter-field{
+                width:95%;
+                background: #fff;
+                height: 40px;
+                .filter-field-wrapper{
+                    margin: 0.3rem;                    
+                     p{
+                        border-radius: 20px;
+                        background: rgba(251, 188, 9, 0.16);
+                        color: #fbbc09;
+                        padding: 0.3rem;
+                        text-align: center;
+                        margin: 0 0.3rem 0 0;
+                        width:12%;
+                    }
+                }
+            }
+        }
+    }
+}
