@@ -9,7 +9,7 @@ interface TableDataCardProps {
     category?:string;
     urgency?:string;
     impact?:string;
-    assigned_to?:string;
+    assigned_to:string;
     status?:string;
     date?:string;
     action?:string;
@@ -59,7 +59,7 @@ const Table: React.FC<TableProps> = ({ columns, data }) => {
                     </p>
                   ) : column.dataIndex === "status" ? (
                     <p className="pill">{item[column.dataIndex]}</p>
-                  ) : column.dataIndex === "assigned_to" ? (
+                  ) : column.dataIndex === "assigned_to" && item[column.dataIndex] && item ? (
                     <p className="assignedto">
                       <span>
                         <img
@@ -92,7 +92,7 @@ const Table: React.FC<TableProps> = ({ columns, data }) => {
                     </>
 
                   ): (
-                    <p>{item[column.dataIndex]}</p>
+                    <p>{item[column.dataIndex as keyof typeof item]}</p>
                   )}
                 </td>
               ))}
