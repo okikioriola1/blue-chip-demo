@@ -10,7 +10,7 @@ interface TableDataCardProps {
     category?:string;
     urgency?:string;
     impact?:string;
-    assigned_to?:string;
+    assigned_to:string;
     status?:string;
     date?:string;
     action?:string;
