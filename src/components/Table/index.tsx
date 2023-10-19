@@ -1,11 +1,18 @@
 import * as React from "react";
 import "./table.scss";
-import AssignedImg from "../../assets/images/assigned_to_img.svg";
+
 
 interface TableDataCardProps {
-  id: string;
-  title: string;
-  project: string;
+	id?: string;
+	title?: string;
+	project?: string;
+    category?:string;
+    urgency?:string;
+    impact?:string;
+    assigned_to?:string;
+    status?:string;
+    date?:string;
+    action?:string;
 }
 interface TableColumnProps {
   title: string;

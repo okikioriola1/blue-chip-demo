@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Navbar from '../../components/Navbar/Index'
+import Navbar from '../../components/Navbar/index'
 import Table from '../../components/Table/index'
 import './home.scss'
 import SearchIcon from '../../assets/images/search-icon.svg'

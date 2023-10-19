@@ -1,5 +1,5 @@
 import * as React from 'react'
-import Navbar from '../../components/Navbar/Index'
+import Navbar from '../../components/Navbar/index'
 import ArrowLeftIcon from '../../assets/images/arrow-left.svg'
 import './createticket.scss'
 import { Link } from 'react-router-dom'
@@ -14,7 +14,7 @@ const CreateTicket = () => {
     <div className='create-ticket'>
     <Navbar/>
     <div className='create-header'>
-            <Link to="/"><div className='back-btn'>
+            <Link to="/dashboard"><div className='back-btn'>
                <img src={ArrowLeftIcon} alt="left-arrow"/>
             </div></Link>
             <div className='intro-text'>

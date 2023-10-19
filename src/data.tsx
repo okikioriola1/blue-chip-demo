@@ -4,16 +4,16 @@ import ActionIcon from './assets/images/action-icon.svg'
 
 
 interface TableDataCardProps {
-	id: string;
-	title: string;
-	project: string;
-    category:string;
-    urgency:string;
-    impact:string;
-    assigned_to:string;
-    status:string;
-    date:string;
-    action:string;
+	id?: string;
+	title?: string;
+	project?: string;
+    category?:string;
+    urgency?:string;
+    impact?:string;
+    assigned_to?:string;
+    status?:string;
+    date?:string;
+    action?:string;
 	
 }
 
